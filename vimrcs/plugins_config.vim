@@ -93,6 +93,9 @@ map <leader>nf :NERDTreeFind<cr>
 let Tlist_Use_Right_Window = 1
 nnoremap <F8> :TlistToggle<CR>
 
+set number
+
+let g:rainbow_active = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
