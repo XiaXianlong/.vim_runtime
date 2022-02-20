@@ -96,6 +96,9 @@ nnoremap <F8> :TlistToggle<CR>
 set number
 
 let g:rainbow_active = 1
+
+let g:formatterpath = ['/some/path/to/a/folder', '/home/superman/formatters']
+au BufWrite * :Autoformat
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
